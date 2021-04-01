@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&family=Oswald:wght@400;500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+.jumbotron {
+    background-image: url(bt2.png);
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: white;
+    border-radius: 0px!important;
+}
+
+.fa-shopping-cart {
+    margin-right: 5px;
+    color: white;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+.jumbotron h1 {
+    margin: 40px 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 80px;
+    line-height: 40px;
+}
+
+.intro {
+    padding-top: 260px;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.692);
+}
+
+.navbar-nav a {
+    color: white!important;
+    margin: 0 20px;
+    margin-top: 10px;
+}
+
+.navbar-brand {
+    color: white!important;
+    
+}
+
+.navbar-toggler {
+    color: white!important;
+    border: none!important;
+    outline: none!important;
+}
+
+.navbar-toggler .fas {
+    color: white;
+    font-size: 26px;
+}
+
+.nav-link:hover {
+    font-weight: 600;
+    border-bottom: 1px solid white;
+    margin-bottom: -1px;
+}
+
+#header .btn {
+    border: 1px solid white;
+    margin-top: 20px;   
+    padding: 6px 26px;
+    font-size: 16px; 
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.034);
+    }
+
+    .jumbotron h1 {
+        font-size: 40px;
+        line-height: 1;
+    }
+
+    .intro {
+        padding-top: 100px;
+        margin-bottom: 25px;
+    }
+
+    .container h1 {
+        font-size: 75px;
+        font-family: 'Oswald', sans-serif;    
+    }
+
+    }
+
+    .DDT {
+        margin-top: 100px;
+        }
+
+
+
+    .about-container {
+        margin-top: 120px;
+    }
+    
+    .container h1 {
+        font-size: 75px;
+        font-family: 'Oswald', sans-serif;    
+        margin-bottom: 0;
+    }
+
+    .container p {
+        font-family: 'Oswald', sans-serif;    
+    }
+
+    .image {
+        max-width: 500px;
+    }
+
+
+    .bbt {
+        min-width: 250px;
+        align-self: center;
+    }
+
+    .card-body {
+        text-align: center;
+        }
+
+    .card {
+        border: none;
+    }
+
+
+    .trending {
+        margin-top: 120px;
+    }
+
+
+    .eat {
+        margin-top: 120px;
+    }
+
+    .icon {
+        max-width: 130px;
+        max-height: 90px;
+        align-self:center;
+    }
+
+    .card-body h2 {
+        font-size: 35px;
+    }
