@@ -25,23 +25,9 @@
 .navbar-brand {
     margin-left: 20px;
     font-family: 'Noto Sans KR', sans-serif;
-
 }
 
-.jumbotron h1 {
-    margin: 40px 0;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size: 80px;
-    line-height: 40px;
-}
 
-.intro {
-    padding-top: 260px;
-}
-
-.navbar {
-    background-color: rgba(0, 0, 0, 0.692);
-}
 
 .navbar-nav a {
     color: white!important;
@@ -78,9 +64,13 @@
     font-size: 16px; 
 }
 
-@media only screen and (max-width: 600px) {
 
 
+    /* Extra small devices (portrait phones, less than 576px)
+ No media query for `xs` since this is the default in Bootstrap
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 300px) { 
     .navbar {
         background-color: rgba(0, 0, 0, 0.034);
     }
@@ -96,11 +86,217 @@
     }
 
     .container h1 {
-        font-size: 75px;
+        font-size: 55px;
+        text-align: center;
         font-family: 'Oswald', sans-serif;    
     }
 
+    .container p {
+        font-size: 13px;
+        text-align:center;
     }
+
+
+    .container {
+        margin-top: 85px;
+    }
+
+    .card img {
+        max-width: 150px;
+        align-self: center;
+    }
+
+    .card {
+        border: none;
+    }
+
+    .card-body h2 {
+        text-align: center;
+    }
+
+    .card p {
+        text-align: center;
+    }
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .jumbotron h1 {
+        margin: 40px 0;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 80px;
+        line-height: 40px;
+    }
+    
+    .intro {
+        padding-top: 260px;
+    }
+    
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.829);
+        box-shadow: 10px;
+    }
+    
+    .container h1 {
+        font-size: 65px;
+        font-family: 'Oswald', sans-serif;    
+    }
+
+    .container {
+        margin-top: 85px;
+    }
+
+    .container p {
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .card img {
+        max-width: 150px;
+        align-self: center;
+    }
+
+    .card {
+        border: none;
+    }
+
+    .card-body h2 {
+        text-align: center;
+    }
+
+    .card p {
+        text-align: center;
+    }
+
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .jumbotron h1 {
+        margin: 40px 0;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 80px;
+        line-height: 40px;
+    }
+    
+    .intro {
+        padding-top: 260px;
+    }
+    
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.692);
+    }
+    
+    .container h1 {
+        font-size: 90px;
+        font-family: 'Oswald', sans-serif;    
+    }
+
+    .container p {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .container {
+        margin-top: 85px;
+    }
+
+
+    .card img {
+        max-width: 150px;
+        align-self: center;
+    }
+
+    .card {
+        border: none;
+    }
+
+    .card-body h2 {
+        text-align: center;
+    }
+
+    .card p {
+        text-align: center;
+    }
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .jumbotron h1 {
+        margin: 40px 0;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 80px;
+        line-height: 40px;
+    }
+    
+    .intro {
+        padding-top: 260px;
+    }
+    
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.692);
+    }
+
+    .container h1 {
+        font-size: 90px;
+        font-family: 'Oswald', sans-serif;    
+        text-align: left;
+    }
+
+    .container img {
+        max-width: 490px;
+    }
+
+    .container p {
+        font-size: 16px;
+    }
+
+    .container {
+        margin-top: 85px;
+    }
+
+    .card img {
+        max-width: 150px;
+        align-self: center;
+    }
+
+    .card {
+        border: none;
+    }
+
+    .card-body h2 {
+        text-align: center;
+    }
+
+    .card p {
+        text-align: center;
+    }
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*
 
     .DDT {
         margin-top: 100px;
