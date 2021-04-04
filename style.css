@@ -76,12 +76,16 @@
     }
 
     .jumbotron h1 {
-        font-size: 40px;
-        line-height: 1;
+        font-size: 50px;
+        line-height: 30px;;
+    }
+    
+    .btn {
+        margin-top: 20px;
     }
 
     .intro {
-        padding-top: 100px;
+        padding-top: 200px;
         margin-bottom: 25px;
     }
 
@@ -136,8 +140,7 @@
     
     .navbar {
         background-color: rgba(0, 0, 0, 0.829);
-        box-shadow: 10px;
-    }
+        }
     
     .container h1 {
         font-size: 65px;
@@ -157,6 +160,7 @@
         max-width: 150px;
         align-self: center;
     }
+    
 
     .card {
         border: none;
@@ -168,6 +172,7 @@
 
     .card p {
         text-align: center;
+        font-size: 12px;
     }
 
 

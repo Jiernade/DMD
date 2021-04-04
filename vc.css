@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&family=Oswald:wght@400;500&display=swap');
+
+
+.navbar-brand {
+    margin-left: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: white!important;
+
+}
+
+.fa-shopping-cart {
+    margin-right: 5px;
+    color: white;
+}
+
+.navbar-nav a {
+    color: white!important;
+    margin: 0 20px;
+    margin-top: 10px;
+}
+
+
+.navbar-toggler {
+    color: white!important;
+    border: none!important;
+    outline: none!important;
+}
+
+.navbar-toggler .fas {
+    color: white;
+    font-size: 26px;
+}
+
+.nav-link:hover {
+    font-weight: 600;
+    border-bottom: 1px solid white;
+    margin-bottom: -1px;
+}
+
+#header .btn {
+    border: 1px solid white;
+    margin-top: 20px;   
+    padding: 6px 26px;
+    font-size: 16px; 
+}
+
+
+
+@media (min-width: 576px) { 
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.034);
+    }
+    
+    .btn {
+        margin-top: 20px;
+    }
+
+ }
+
+@media (min-width: 768px) { 
+      
+    
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.829);
+        }
+    
+ }
+
+@media (min-width: 992px) { 
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.692);
+    }
+ }
+
+@media (min-width: 1200px) { 
+    .navbar {
+        background-color: rgba(0, 0, 0, 0.692);
+    }
+
+    .container {
+        margin-top: 85px;
+    }
+
+    .intro {
+        padding-top: 20px;
+    }
+ }
