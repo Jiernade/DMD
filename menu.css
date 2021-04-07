@@ -7,17 +7,25 @@
 
 }
 
-.navbar-brand {
-    margin-left: 20px;
-    font-family: 'Noto Sans KR', sans-serif;
-    color: white!important;
-
-}
-
 .fa-shopping-cart {
     margin-right: 5px;
     color: white;
 }
+
+.nav-item span {
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+}
+
+
+
+.navbar-brand {
+    margin-left: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
 
 .navbar-nav a {
     color: white!important;
@@ -25,6 +33,10 @@
     margin-top: 10px;
 }
 
+.navbar-brand {
+    color: white!important;
+    
+}
 
 .navbar-toggler {
     color: white!important;
@@ -43,9 +55,11 @@
     margin-bottom: -1px;
 }
 
-.btn {
-    background: rgba(97, 53, 42, 0.438);
-    border: none;
+#header .btn {
+    border: 1px solid white;
+    margin-top: 20px;   
+    padding: 6px 26px;
+    font-size: 16px; 
 }
 
 .container {
@@ -54,30 +68,20 @@
 
 
 a {
-    color: rgba(97, 53, 42, 0.527);
-}
-
-.colorwhite {
-    color: white;
+    color: rgba(97, 53, 42, 0.671);
 }
 
 hr.light {
     border-top: 1px solid #d5d5d5;
-    width: 75%;
+    width: 60%;
 }
 
 
-
-
-
-
 @media (min-width: 300px) { 
-      
-    
     .navbar {
         background-color: rgba(0, 0, 0, 0.829);
     }
-        
+
     .container h1 {
         font-size: 50px;
     }
@@ -86,27 +90,20 @@ hr.light {
         margin-top: 100px;
     }
 
-    .img1 {
-        max-width: 520px;
+    .intro {
+        padding-top: 20px;
     }
 
-    .img2 {
-        max-width: 520px;
-    }
-    
-    .mycard {
-        margin-top: 75px;
+    .card-body {
+        align-self: center;
         text-align: center;
+        line-height: 18px;
     }
 
-
-    .mycard2 {
-        margin-top: 55px;
-        text-align: center;
-
+    .card {
+        border: none;
     }
 
-    
     footer {
         background: rgba(0, 0, 0, 0.829);
         color: #ffffff;
@@ -131,7 +128,6 @@ hr.light {
     footer {
         margin-top: 200px;
     } 
-
  }
 
 @media (min-width: 768px) { 
@@ -153,37 +149,16 @@ hr.light {
         padding-top: 20px;
     }
 
-
-    .img1 {
-        margin-left: 120px;
-        max-width: 520px;
-
+    .card-body {
+        align-self: center;
+        text-align: center;
+        line-height: 18px;
     }
 
-    .img2 {
-        max-width: 520px;
-        margin-left: 110px;
-    }
-    
-    .mycard {
-        margin-top: 75px;
+    .card {
+        border: none;
     }
 
-    .mycard2 {
-        margin-top: 55px;
-    }
-
-
-    .container h2 {
-        font-size: 24px;
-        
-    }
-
-    .container p {
-        font-size: 14px;
-    }
-
-    
     .social a {
         font-size: 1.5em;
         padding-left: 10px;
@@ -202,6 +177,9 @@ hr.light {
     footer {
         margin-top: 200px;
     } 
+
+
+
  }
         
 
@@ -222,36 +200,14 @@ hr.light {
         padding-top: 20px;
     }
 
-    img {
-        max-width: 520px;
+    .card-body {
+        align-self: center;
+        text-align: center;
+        line-height: 10px;
     }
 
-
-    .img1 {
-        margin-left: 120px;
-    }
-
-    .img2 {
-        max-width: 520px;
-        margin-left: 110px;
-    }
-    
-    .mycard {
-        margin-top: 75px;
-    }
-
-    .mycard2 {
-        margin-top: 55px;
-    }
-
-
-
-    .container h2 {
-        font-size: 28px;
-    }
-
-    .container p {
-        font-size: 16px;
+    .card {
+        border: none;
     }
 
     .social a {
@@ -272,6 +228,7 @@ hr.light {
     footer {
         margin-top: 200px;
     } 
+
  }
 
 @media (min-width: 1200px) { 
@@ -292,26 +249,19 @@ hr.light {
         padding-top: 20px;
     }
 
-    img {
-        max-width: 520px;
+    .card-body {
+        align-self: center;
+        text-align: center;
+        line-height: 10px;
     }
 
-
-    .img1 {
-        margin-left: 120px;
+    .card {
+        border: none;
     }
 
-    .img2 {
-        max-width: 520px;
-        margin-left: 110px;
-    }
-    
-    .mycard {
-        margin-top: 75px;
-    }
-
-    .mycard2 {
-        margin-top: 55px;
+    .btn {
+        max-width: 250px;
+        margin-bottom: 12px;
     }
 
     .social a {
@@ -332,10 +282,7 @@ hr.light {
     footer {
         margin-top: 200px;
     }
-
-
-
-
+ }
 
 
  }

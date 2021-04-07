@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&family=Oswald&family=Parisienne&display=swap');
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.829);
+}
+
+.navbar-brand {
+    margin-left: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: white!important;
+
+}
+
+.fa-shopping-cart {
+    margin-right: 5px;
+    color: white;
+}
+
+.navbar-nav a {
+    color: white!important;
+    margin: 0 20px;
+    margin-top: 10px;
+}
+
+
+.navbar-toggler {
+    color: white!important;
+    border: none!important;
+    outline: none!important;
+}
+
+.navbar-toggler .fas {
+    color: white;
+    font-size: 26px;
+}
+
+.nav-link:hover {
+    font-weight: 600;
+    border-bottom: 1px solid white;
+    margin-bottom: -1px;
+}
+
+.btn {
+    background: rgba(97, 53, 42, 0.438);
+    border: none;
+}
+
+.container {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+a {
+    color: rgba(97, 53, 42, 0.527);
+}
+
+.colorwhite {
+    color: white;
+}
+
+@media (min-width: 576px) { 
+
+    
+
+
+ }
+
+@media (min-width: 768px) { 
+      
+    
+
+ }
+
+@media (min-width: 992px) { 
+
+
+ }
+
+@media (min-width: 1200px) { 
+
+ }
+

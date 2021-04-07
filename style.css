@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&family=Oswald:wght@400;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&family=Oswald&family=Parisienne&display=swap');
 * {
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
 
 }
 
@@ -17,10 +17,22 @@
     border-radius: 0px!important;
 }
 
+.jumbotron a {
+    color: white;
+}
+
 .fa-shopping-cart {
     margin-right: 5px;
     color: white;
 }
+
+.nav-item span {
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+}
+
+
 
 .navbar-brand {
     margin-left: 20px;
@@ -64,16 +76,44 @@
     font-size: 16px; 
 }
 
+.navbar {
+    background: rgba(0, 0, 0, 0.829);
+}
 
+/*
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color: #00aced
+}
+
+.fa-instagram {
+    color: #517fa4
+}
+
+.fa-youtube {
+    color: #bb0000;
+}
+
+.fa-discord {
+    color: #7289da
+}
+
+*/
+
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+}
 
     /* Extra small devices (portrait phones, less than 576px)
  No media query for `xs` since this is the default in Bootstrap
 
  /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 300px) { 
-    .navbar {
-        background-color: rgba(0, 0, 0, 0.034);
-    }
+
 
     .jumbotron h1 {
         font-size: 50px;
@@ -122,6 +162,33 @@
         text-align: center;
     }
 
+    footer {
+        background: rgba(0, 0, 0, 0.829);
+        color: #ffffff;
+        padding-top: 2rem;
+    }
+
+    .social a {
+        font-size: 1.5em;
+        padding-left: 10px;
+        color:white;
+    }
+    
+    .social {
+        margin-bottom: 5px;
+    }
+
+    footer h2 {
+    font-family: 'Parisienne', cursive;
+    font-size: 43px;
+    }   
+
+    footer {
+        margin-top: 200px;
+    } 
+
+
+    
 
 }
 
@@ -138,9 +205,6 @@
         padding-top: 260px;
     }
     
-    .navbar {
-        background-color: rgba(0, 0, 0, 0.829);
-        }
     
     .container h1 {
         font-size: 65px;
@@ -175,6 +239,26 @@
         font-size: 12px;
     }
 
+    .social a {
+        font-size: 1.5em;
+        padding-left: 10px;
+        color:white;
+    }
+    
+    .social {
+        margin-bottom: 5px;
+    }
+
+    footer h2 {
+    font-family: 'Parisienne', cursive;
+    font-size: 43px;
+    }   
+
+    footer {
+        margin-top: 200px;
+    } 
+
+
 
  }
 
@@ -189,10 +273,6 @@
     
     .intro {
         padding-top: 260px;
-    }
-    
-    .navbar {
-        background-color: rgba(0, 0, 0, 0.692);
     }
     
     .container h1 {
@@ -227,7 +307,24 @@
         text-align: center;
     }
 
+    .social a {
+        font-size: 1.5em;
+        padding-left: 10px;
+        color:white;
+    }
+    
+    .social {
+        margin-bottom: 5px;
+    }
 
+    footer h2 {
+    font-family: 'Parisienne', cursive;
+    font-size: 43px;
+    }   
+
+    footer {
+        margin-top: 200px;
+    } 
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -242,10 +339,7 @@
     .intro {
         padding-top: 260px;
     }
-    
-    .navbar {
-        background-color: rgba(0, 0, 0, 0.692);
-    }
+
 
     .container h1 {
         font-size: 90px;
@@ -263,6 +357,7 @@
 
     .container {
         margin-top: 85px;
+        
     }
 
     .card img {
@@ -282,6 +377,24 @@
         text-align: center;
     }
 
+    .social a {
+        font-size: 1.5em;
+        padding-left: 10px;
+        color:white;
+    }
+    
+    .social {
+        margin-bottom: 5px;
+    }
+
+    footer h2 {
+    font-family: 'Parisienne', cursive;
+    font-size: 43px;
+    }   
+
+    footer {
+        margin-top: 200px;
+    }
  }
 
 
